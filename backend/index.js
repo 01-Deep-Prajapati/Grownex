@@ -11,10 +11,12 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors({
-  origin: ['https://grownex.vercel.app', 'http://localhost:5173'],
-  credentials: true
-}));
+app.use(
+  cors({
+    origin: ["https://grownex-flame.vercel.app", "http://localhost:5173"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 // Connect to MongoDB
