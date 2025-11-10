@@ -31,7 +31,7 @@ const Login = () => {
             <div className="w-full max-w-md px-8 py-10 bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl border border-gray-100">
                 <div className="text-center mb-10">
                     <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-3">
-                        LinkedIn
+                        Grownex
                     </h1>
                     <p className="text-gray-600 text-lg font-medium">
                         {isLogin ? 'Welcome back!' : 'Create your account'}
